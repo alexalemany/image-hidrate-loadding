@@ -4,7 +4,8 @@ You can use the [editor on GitHub](https://github.com/alexalemany/image-hydrate-
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-<style>
+(setq markdown-xhtml-header-content
+      "<style type='text/css'>
 ul{
 	padding: 0 20px;
 }
