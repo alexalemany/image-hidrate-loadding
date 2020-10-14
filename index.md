@@ -4,13 +4,47 @@ You can use the [editor on GitHub](https://github.com/alexalemany/image-hydrate-
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
+<style>
+ul{
+            padding: 0 20px;
+        }
+		li{
+			width: 100%;
+			height: 330px;
+			position: relative;
+			list-style-type: none;
+			margin-bottom: 15px;
+		}
+		img{
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+			background-color: #f7f7f7;
+			border: 0;
+		}
+        .to-hydrate{
+            -webkit-filter: blur(10px); 
+            -moz-filter: blur(10px);
+            -o-filter: blur(10px); 
+            -ms-filter: blur(10px); 
+            filter: url(#blur); 
+            filter: blur(10px);  
+            filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius='1');
+            -webkit-transition: .5s -webkit-filter linear;
+            -o-transition: .5s -o-filter linear;
+        }
+        .to-hydrate.rendered{
+            filter: blur(0px);
+        }
 
+<style>
 <ul>
 		<li>
 			<img class="to-hydrate" src="https://picsum.photos/id/237/40/22" data-src="https://picsum.photos/id/237/640/360">
   </li>
 </ul>
 <script src="https://github.com/alexalemany/image-hydrate-loading/blob/master/src/js/image-hydrate-loading.js"></script>
+
 ### Markdown
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
