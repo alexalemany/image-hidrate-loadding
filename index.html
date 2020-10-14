@@ -7,7 +7,7 @@
 	<meta name="description" content="Demo enter element on viewport">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="theme-color" content="#fafafa">
-
+	<link rel="stylesheet" href="http://image-hydrate-loading.test/demo/css/image-hydrate-loading.css">
   	<style>
 		body{
 			margin:0;
@@ -40,21 +40,8 @@
 			background-color: #f7f7f7;
 			border: 0;
 		}
-        .to-hydrate{
-            -webkit-filter: blur(10px); 
-            -moz-filter: blur(10px);
-            -o-filter: blur(10px); 
-            -ms-filter: blur(10px); 
-            filter: url(#blur); 
-            filter: blur(10px);  
-            filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius='1');
-            -webkit-transition: .5s -webkit-filter linear;
-            -o-transition: .5s -o-filter linear;
-        }
-        .to-hydrate.rendered{
-            filter: blur(0px);
-        }
 	</style>
+
 </head>
 
 <body>
@@ -66,7 +53,7 @@
 			<img class="to-hydrate" src="https://picsum.photos/id/237/40/22" data-src="https://picsum.photos/id/237/640/360">
 		</li>
     </ul>
-    <script src="http://image-hydrate-loading.test/src/js/image-hydrate-loading.js"></script>
+    <script src="http://image-hydrate-loading.test/demo/js/image-hydrate-loading.js"></script>
 </body>
 
 </html>

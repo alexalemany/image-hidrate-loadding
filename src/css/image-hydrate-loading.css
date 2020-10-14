@@ -9,7 +9,11 @@
     -webkit-transition: .5s -webkit-filter linear;
     -o-transition: .5s -o-filter linear;
 
-    &["rendered='true'"] {
+    .stop{
+        color:red;
+    }
+
+    &[rendered="true"] {
         filter: blur(0px);
     }
 }
