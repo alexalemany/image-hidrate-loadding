@@ -4,8 +4,7 @@ You can use the [editor on GitHub](https://github.com/alexalemany/image-hydrate-
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-(setq markdown-xhtml-header-content
-      "<style>
+<style>
 ul{
 	padding: 0 20px;
 }
@@ -24,7 +23,7 @@ img{
 	border: 0;
 }
 .to-hydrate{-webkit-filter:blur(10px);-moz-filter:blur(10px);-o-filter:blur(10px);-ms-filter:blur(10px);filter:url(#blur);filter:blur(10px);filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius="3");-webkit-transition:-webkit-filter .5s linear;-o-transition:.5s -o-filter linear}.to-hydrate .stop{color:red}.to-hydrate[rendered=true]{-webkit-filter:blur(0);filter:blur(0)}
-</style>")
+</style>
 	
 <ul>
 <li>
