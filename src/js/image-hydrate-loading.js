@@ -19,7 +19,10 @@ class ImageHydrateLoading {
                     /* eslint-disable-next-line */
                     new Blob([ new Uint8Array(buffer) ])
                 )
-                this.selector.classList.add('rendered')
+                this.selector.setAttribute('rendered', true)
             })
     }
 }
+
+export default ImageHydrateLoading
+
