@@ -1,0 +1,31 @@
+{
+  "name": "image-hydrate-loading",
+  "version": "v0.0.1",
+  "description": "Load images in the background and then hydrate with blur effect",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npm run development",
+    "development": "webpack --mode development --config=webpack.config.js --display-error-details",
+    "watch": "npm run development -- --watch",
+    "prod": "npm run production",
+    "production": "webpack --mode production  --hide-modules --config=webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexalemany/image-hydrate-loading.git"
+  },
+  "devDependencies": {
+    "webpack-settings": "git@github.com:alexalemany/webpack-settings.git#semver:~v1.x.x"
+  },
+  "keywords": [
+    "Load",
+    "image",
+    "background"
+  ],
+  "author": "Alex Alemany",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alexalemany/image-hydrate-loading/issues"
+  },
+  "homepage": "https://github.com/alexalemany/image-hydrate-loading#readme"
+}
