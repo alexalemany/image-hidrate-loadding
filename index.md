@@ -4,6 +4,13 @@ You can use the [editor on GitHub](https://github.com/alexalemany/image-hydrate-
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
+
+<ul>
+		<li>
+			<img class="to-hydrate" src="https://picsum.photos/id/237/40/22" data-src="https://picsum.photos/id/237/640/360">
+  </li>
+</ul>
+<script src="https://github.com/alexalemany/image-hydrate-loading/blob/master/src/js/image-hydrate-loading.js"></script>
 ### Markdown
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
