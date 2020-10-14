@@ -1,6 +1,6 @@
 {
   "name": "image-hydrate-loading",
-  "version": "v0.0.1",
+  "version": "1.0.0",
   "description": "Load images in the background and then hydrate with blur effect",
   "main": "index.js",
   "scripts": {
