@@ -1,59 +1,90 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-
 <head>
-	<meta charset="utf-8">
-	<title>Demo image hydrate</title>
-	<meta name="description" content="Demo enter element on viewport">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="theme-color" content="#fafafa">
-	<link rel="stylesheet" href="http://test.htmlrocket.online/css/image-hydrate-loading.css">
-  	<style>
-		body{
-			margin:0;
-			padding:0;
-			font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-		}
-		header{
-            padding: 80px 50px;
-            font-size: 18px;
-            font-weight: bold;
-            color: #fff;
-            background: rgb(2,196,255);
-            background: linear-gradient(301deg, rgba(2,196,255,1) 0%, rgba(255,9,206,1) 99%); 
-            text-transform: uppercase;
-        }
-        ul{
-            padding: 0 20px;
-        }
-		li{
-			width: 100%;
-			height: 330px;
-			position: relative;
-			list-style-type: none;
-			margin-bottom: 15px;
-		}
-		img{
-			width: 100%;
-			height: 100%;
-			object-fit: cover;
-			background-color: #f7f7f7;
-			border: 0;
-		}
-	</style>
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Koduz checkout</title>
+    <link rel="stylesheet" href="http://test.htmlrocket.online/css/checkout.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;700&display=swap" rel="stylesheet"> 
 </head>
-
 <body>
-<header>
-	Demo image hydrate loading
-</header>
-	<ul>
-		<li>
-			<img class="to-hydrate" src="https://picsum.photos/id/237/40/22" data-src="https://picsum.photos/id/237/640/360">
-		</li>
-    </ul>
-	<script src="http://test.htmlrocket.online/js/image-hydrate-loading.js"></script>
-</body>
+    <header>
+        <img src="https://www.koduz.com/wp-content/uploads/2018/06/logoandname.png" width="160" alt="Logo Koduz">
+    </header>
+    <div class="sub-header">
+        <a href="#">individual 1</a>
+    </div>
+    <div class="container">
+        <div class="checkout-wrapp">
 
+            <div class="img">
+                <img class="img-responsive" src="https://files.koduz.com/projects-moodboards/comedor-para-susana-propuesta-1-propuesta-de-diseno-1b.jpg.jpg" alt="">
+            </div>
+
+            <div class="chekcout-details">
+                <div class="checkout-title">
+                    individual 1
+                </div>
+                <div class="checkout-group">
+                    <div class="checkout-key">Products:</div>
+                    <div class="checkout-value">16</div>
+                </div>
+                <div class="checkout-group">
+                    <div class="checkout-key">Subtotal:</div>
+                    <div class="checkout-value">1680 €</div>
+                </div>
+                <div class="checkout-group">
+                    <div class="checkout-key">Transport:</div>
+                    <div class="checkout-value">5,90 €</div>
+                </div>
+                <div class="checkout-group">
+                    <div class="checkout-key">Order total:</div>
+                    <div class="checkout-value">1685,90 €</div>
+                </div>
+
+                <div class="checkout-total-wrap">
+                    <div class="checkout-total">
+                        1685,90 €
+                    </div>
+                    <div class="checkout-payment-method">
+                        Select your preferred payment method:
+                        <div class="checkout-payment-wrap">
+                            <div class="checkout-payment-method">
+                                <a href="#" class="method-credit">Credit card</a>
+                            </div>
+                            <div class="checkout-payment-method">
+                                <a href="#" class="method-credit">Transfer</a>
+                            </div>
+                            <div class="checkout-payment-method">
+                                <a href="#" class="method-credit">Sequra</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="checkout-products">
+            <div class="accordion c-accordion--vertical accordion-selector">
+                <div class="c-accordion__item">
+                    <div class="c-accordion__head">
+                        <div class="c-accordion__head-text">
+                            Ver los muebles
+                        </div> 
+                        <div class="c-accordion__head-text">
+                            +
+                        </div> 
+                    </div>
+                    <div class="c-accordion__body">
+                        <div class="accordion__body--content">
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="http://test.htmlrocket.online/js/checkout.js"></script>
+</body>
 </html>
