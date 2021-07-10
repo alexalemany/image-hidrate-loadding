@@ -1,16 +1,15 @@
-const webpack = require('webpack-settings/webpack.settings.js')
+const webpack = require('webpack-config/webpack.config.js')
 const path = require('path')
 
 webpack.entry = {
     // name and input entry of your file
-    // this first js is a alias js/src/js/input-file-name.js
-    'image-hydrate-loading': 'js/src/entry/index.js',
+    'image-hydrate-loading': '@/src/entry/index.js'
 }
 
 webpack.output = {
     filename: 'js/[name].js',
     chunkFilename: 'js/[name].js',
-    path: path.resolve(__dirname, 'demo'),
+    path: path.resolve(__dirname, 'demo')
 }
 
 module.exports = webpack
