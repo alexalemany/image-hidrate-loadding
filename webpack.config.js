@@ -9,7 +9,7 @@ webpack.entry = {
 webpack.output = {
     filename: 'js/[name].js',
     chunkFilename: 'js/[name].js',
-    path: path.resolve(__dirname, 'demo')
+    path: path.resolve(__dirname, 'dist')
 }
 
 module.exports = webpack
